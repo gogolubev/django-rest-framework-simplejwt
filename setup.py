@@ -59,6 +59,7 @@ setup(
     ],
     python_requires='>=3.6,<3.9',
     extras_require=extras_require,
+    include_package_data=True,
     packages=find_packages(exclude=['tests', 'tests.*', 'licenses', 'requirements']),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
